@@ -3,7 +3,7 @@ JSON
  1. Создать внешний репозиторий c названием JSON. 
  https://github.com/ > Sign in > Click "New" on top-left corner> Click "Repository name" tab > Enter JSON > Put a check next to "Add a README file" > Click "Create repository".
  2. Клонировать репозиторий JSON на локальный компьютер. 
- git clone https://github.com/ee1ovc/TXT.git
+ git clone https://github.com/ee1ovc/JSON.git
  3. Внутри локального JSON создать файл “new.json”. 
  > new.json
  4. Добавить файл под гит. 
