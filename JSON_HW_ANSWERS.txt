@@ -56,7 +56,7 @@ JSON
  14. На веб интерфейсе создать файл bug_report.json.
 https://github.com/ > Sign in > Click ee1ovc/JSON Repositorie > Click Add file > Create New fille > Click "Name your file ..." tab > Enter "bug_report.json"
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- Click on "Add an optional extended description" tab > Type commit
+ Enter Commit > Click "Commit changes"
  16. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
 https://github.com/ > Sign in > Click ee1ovc/JSON Repositorie > Click on "bug_report.json" file> Click on pencil icon "Edit this File"
 {
@@ -80,4 +80,8 @@ https://github.com/ > Sign in > Click ee1ovc/JSON Repositorie > Click on "bug_re
 }
  
 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
+ Enter Commit > Click "Commit changes"
  18. Синхронизировать внешний и локальный репозиторий JSON
+git checkout origin "branch name"
+git fetch
+git pull
