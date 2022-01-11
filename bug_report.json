@@ -1,0 +1,20 @@
+{
+	
+	"Id":"1",
+	"Summary":"Typo in word сторона",
+	"Str":[
+  "Open telegram",
+  "Sign in",
+  "Click Search",
+  "Enter 26_Channel_Qa",
+  "Clck on 26_Channel_QA",
+  "On top right corner Click magnifier",
+  "Enter Git Homework1",
+  "Check number 13 in list"
+  ],
+  	"Actual result":" Typo in word сторона",
+  	"Expected result":"страна",
+  	"Severity":"Trivial",
+  	"Priority":"Low"
+}
+ 
