@@ -117,5 +117,7 @@ https://github.com/ > Sign in > Click ee1ovc/JSON Repositorie > Click on "bug_re
 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
  Enter Commit > Click "Commit changes"
  18. Синхронизировать внешний и локальный репозиторий JSON
-git fetch
+git fetch 
+git merge
+или
 git pull
