@@ -16,7 +16,6 @@ JSON
  vim new.json 
  press i
 {
-        "string":"Let me tell you about myself",i
         "name" : "Ivan",
         "surname": "Ovcharenko",
         "age": 33,
@@ -27,15 +26,15 @@ JSON
  :wq
 
  8. Отправить изменения на внешний репозиторий. 
- git commit -am "age,full name,pet count, wanted salary" 
+ git add new.json 
+ git commit -m "age,full name,pet count, wanted salary" 
  git push
  9. Создать файл "preferences.json" 
 > preferences.json
- 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON. 
+ 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате JSON. 
  vim preferences.json 
  press i
 {
-        "string":"Let me tell you about my preferences",
         "favorite movie":"Terminator 2",
         "favorite series":"Cowboy Bebop - anime series",
         "favorite food":"Chicken Pasta",
@@ -47,8 +46,44 @@ JSON
 
  11. Создать файл skills.json 
  > skills.json
- 12.В файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON 
+ 12. В файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON 
  vim skills.json
+ press i
+ { 
+	"course name":"Vadim Ksenzov courses",
+	"courses length":"3 months",
+	"skills to learn":[
+		"Baisc Theory", 
+		"Client–server model",
+		"HTTP server request",
+		"HTTP response status code",
+		"HTTP request,response structure",
+		"JSON/XML and thier structure",
+		"API testing thru Postman (JS, autotest API)",
+		"View and read logs on a remote server",
+		"HTTP/WEB snifing with Charles/Fiddler",
+		"Browser web developer tools (Chrome,Firefox)",
+		"VPN explained",
+		"Mobiles testing",
+		"iOS/Andriod features, guidelines",
+		"iOS app build in Xcode",
+		"Android app build in Andriod Studio",
+		"ADB (Android Debug Bridge)",
+		"VPN proxy setting iOS/Android",
+		"Mobile snifing Charles/Fiddler in iOS/Andriod",
+		"Terminal linux",
+		"Bash scripting, automation basic server tasks",
+		"Remote server access",
+		"Sql basics",
+		"Postgres Database",
+		"Redis (REmote DIctionary Server)",
+		"Load testing in Jmeter",
+		"Scrum Methodology",
+		"Python basics"]
+	}
+ press ESC
+ :wq
+
  13. Отправить сразу 2 файла на внешний репозиторий. 
  git add preferences.json skills.json   
  git commit -m "2 files edit" 
@@ -82,6 +117,5 @@ https://github.com/ > Sign in > Click ee1ovc/JSON Repositorie > Click on "bug_re
 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
  Enter Commit > Click "Commit changes"
  18. Синхронизировать внешний и локальный репозиторий JSON
-git checkout origin "branch name"
 git fetch
 git pull
